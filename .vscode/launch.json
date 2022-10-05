@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "vmArgs": "-p C:\\Desarrollo\\JAVA\\DIVA\\DER_Canarias\\canarias\\lib --add-modules javafx.controls,javafx.base,javafx.fxml,javafx.graphics,javafx.media,javafx.web --add-opens=javafx.graphics/javafx.scene=ALL-UNNAMED --add-exports javafx.base/com.sun.javafx.event=ALL-UNNAMED"
+        },
+        {
+            "type": "java",
+            "name": "Launch MainApp",
+            "request": "launch",
+            "mainClass": "com.mycompany.atmmanagementsys.MainApp",
+            "projectName": "AtmManagementSys",
+            "vmArgs": "-p C:\\Desarrollo\\JAVA\\DIVA\\DER_Canarias\\canarias\\lib --add-modules javafx.controls,javafx.base,javafx.fxml,javafx.graphics,javafx.media,javafx.web --add-opens=javafx.graphics/javafx.scene=ALL-UNNAMED --add-exports javafx.base/com.sun.javafx.event=ALL-UNNAMED"
+
+        }
+    ]
+}

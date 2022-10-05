@@ -12,6 +12,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <mainClass>com.mycompany.atmmanagementsys.MainApp</mainClass>
+        <javafx.version>19</javafx.version>
     </properties>
 
     <organization>
@@ -107,12 +108,9 @@
     
     <dependencies>
         <dependency>
-        
             <groupId>org.xerial</groupId>
             <artifactId>sqlite-jdbc</artifactId>
             <version>3.16.1</version>
-        
-        
         </dependency>
     
         <dependency>
@@ -120,7 +118,51 @@
             <artifactId>mail</artifactId>
             <version>1.4</version>
         </dependency>
-    
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId> 
+            <version>4.11</version>
+            <scope>test</scope>
+        </dependency>
+
+       <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-controls</artifactId>
+            <version>${javafx.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-base</artifactId>
+            <version>${javafx.version}</version>
+        </dependency>  
+
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-fxml</artifactId>
+            <version>${javafx.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-swing</artifactId>
+            <version>${javafx.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-graphics</artifactId>
+            <version>${javafx.version}</version>
+            <classifier>win</classifier>
+        </dependency>        
+ 
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-media</artifactId>
+            <version>${javafx.version}</version>
+        </dependency>  
+
     </dependencies>
     
     
